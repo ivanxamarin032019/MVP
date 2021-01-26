@@ -7,7 +7,7 @@
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
-        <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
+        <PackageReference Include="Xamarin.Essentials" Version="1.6.1-preview1" />
         <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
         <PackageReference Include="Microsoft.Identity.Client" Version="4.24.0" />
         <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
@@ -15,16 +15,16 @@
         <PackageReference Include="PropertyChanged.Fody" Version="3.3.1" />
         <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms" Version="2.4.7.944" />
         <PackageReference Include="Acr.UserDialogs" Version="7.1.0.470" />
-        <PackageReference Include="Microsoft.AppCenter" Version="4.0.0" />
-        <PackageReference Include="Microsoft.AppCenter.Analytics" Version="4.0.0" />
-        <PackageReference Include="Microsoft.AppCenter.Crashes" Version="4.0.0" />
+        <PackageReference Include="Microsoft.AppCenter" Version="4.1.0" />
+        <PackageReference Include="Microsoft.AppCenter.Analytics" Version="4.1.0" />
+        <PackageReference Include="Microsoft.AppCenter.Crashes" Version="4.1.0" />
         <PackageReference Include="Refit" Version="5.2.1" />
         <PackageReference Include="HtmlAgilityPack" Version="1.11.29" />
         <PackageReference Include="akavache" Version="7.1.1" />
         <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="4.0.8" />
         <PackageReference Include="TinyMvvm.Autofac" Version="2.4.14" />
         <PackageReference Include="TinyMvvm.Forms" Version="2.4.14" />
-        <PackageReference Include="Xamarin.CommunityToolkit" Version="1.0.0" />
+        <PackageReference Include="Xamarin.CommunityToolkit" Version="1.0.1" />
         <PackageReference Include="Sharpnado.Shadows" Version="1.2.0" />
         <PackageReference Include="IsoNames.NETStandard" Version="1.2.1" />
     </ItemGroup>
@@ -66,6 +66,7 @@
         <None Remove="Resources\oss.json" />
         <None Remove="Resources\empty.svg" />
         <None Remove="Resources\error.svg" />
+        <None Remove="Resources\woman.svg" />
     </ItemGroup>
     <ItemGroup>
         <EmbeddedResource Include="Resources\mvp_logo.svg">
@@ -107,6 +108,9 @@
         </EmbeddedResource>
         <EmbeddedResource Include="Resources\error.svg">
             <LogicalName>error.svg</LogicalName>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Resources\woman.svg">
+          <LogicalName>woman.svg</LogicalName>
         </EmbeddedResource>
     </ItemGroup>
     <ItemGroup>

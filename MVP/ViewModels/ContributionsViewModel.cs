@@ -73,10 +73,6 @@ namespace MVP.ViewModels
                 }
 
                 Contributions = new ObservableCollection<Contribution>(contributionsList.Contributions.OrderByDescending(x => x.StartDate).ToList());
-
-                foreach (var item in Contributions)
-                    Debug.WriteLine(item.StartDate.ToString());
-
             }
             catch (Exception ex)
             {

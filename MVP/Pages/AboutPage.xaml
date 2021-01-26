@@ -27,7 +27,7 @@
                            Margin="0,0,0,32"
                            Text="{x:Static resources:Translations.about_why_description}" />
 
-                    <Label Style="{StaticResource about_title}"
+                    <!--<Label Style="{StaticResource about_title}"
                            Text="{x:Static resources:Translations.about_opensource_title}"
                            Margin="0,0,0,8" />
                     <Label Style="{StaticResource about_description}"
@@ -41,7 +41,7 @@
                                 Margin="0,0,0,24"
                                 ImageSource="{OnPlatform iOS={AppThemeBinding Light={FontImage FontFamily={StaticResource font_icon}, Color={StaticResource black}, Size=20, Glyph={x:Static icons:Icons.coffee}}, Dark={FontImage FontFamily={StaticResource font_icon}, Color={StaticResource white}, Size=20, Glyph={x:Static icons:Icons.coffee}}}}"
                                 Style="{StaticResource secondary_button}" />
-                    </sh:Shadows>
+                    </sh:Shadows>-->
 
                     <Label Style="{StaticResource about_title}"
                            Text="{x:Static resources:Translations.about_licenses_title}"
